@@ -2,10 +2,13 @@
 #include<stdlib.h>
 
 int main(){
-printf("insira um numero inteiro \n");
-int valor;
-scanf("%d",&valor);
-printf("O valor: %d %d \n",valor,3);
-system("pause");
+    
+    int valor;
+    
+    printf("Insira um numero inteiro \n");
+    scanf("%d",&valor);
+    
+    printf("O valor: %d \n",valor);
+    system("pause");
 }
 
